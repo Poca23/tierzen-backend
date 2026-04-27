@@ -24,7 +24,7 @@ public class TierzenBackendApplication {
 			a.setNom("Naudin");
 			a.setPrenom("Claire");
 			a.setNumeroAdherent("HM-2026-00142");
-			a.setMutuelle("Harmonie Mutuelle");
+			a.setMutuelle("TierZen");
 			a.setDateValidite(LocalDate.of(2026, 12, 31));
 			repository.save(a);
 		};
